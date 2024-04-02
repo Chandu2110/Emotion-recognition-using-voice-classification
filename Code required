@@ -63,7 +63,7 @@ def check_dataset_class_diversity(labels):
 
 def main():
     for i in range(1, 25):
-        directory = rf'C:\Users\gaura\Downloads\Ravdees\Actor_{i:02}' # Ensure correct path
+        directory = rf'C:\Users\"write your file location"\Downloads\Ravdees\Actor_{i:02}' # Ensure correct path
         audio_files, labels = load_audio_files(directory)
         
         # List unique labels in the dataset
